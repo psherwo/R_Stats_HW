@@ -27,4 +27,6 @@ tgpp[c(1, 5, 8), c(3, 7, 10)]
 
 
 
-plot(tgpp)
+plot(tgpp$scale, tgpp$richness, xlab="Richness", ylab="Scale (m^2)", col="red")
+
+pdf("tgpp.pdf")
